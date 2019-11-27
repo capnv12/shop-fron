@@ -23,13 +23,13 @@ const Menu = () => {
         <div>
         <ul className="nav nav-tabs bg=primary">
             <li className="nav-item">
-                <StyledNavLink className="nav-link" activeClassName="active" to="/">Home</StyledNavLink >
+                <StyledNavLink exact className="nav-link" activeClassName="active" to="/">Home</StyledNavLink >
             </li>
             <li className="nav-item">
-                <NavLink  className="nav-link" activeClassName="active" to="/signin">Signin</NavLink >
+                <StyledNavLink  className="nav-link" activeClassName="active" to="/signin">Signin</StyledNavLink >
             </li>
             <li className="nav-item">
-                <NavLink  className="nav-link" activeClassName="active" to="/signup">Signup</NavLink >
+                <StyledNavLink  className="nav-link" activeClassName="active" to="/signup">Signup</StyledNavLink >
             </li>
         </ul>
     </div>
